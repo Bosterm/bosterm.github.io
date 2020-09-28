@@ -54,9 +54,11 @@ img[src$=".gif"] {
     -khtml-opacity: 0.65;
     -moz-opacity: 0.65;
     opacity: 0.65;
+	font-family: "Fjalla One", sans-serif !important;
+	font-size: 9px;
 }
 .tl-slidenav-previous .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-description {
-    font-size: 11px;
+    font-size: 9px;
     margin-top: 5px;
     filter: alpha(opacity=0);
     -khtml-opacity: 0;
@@ -70,5 +72,8 @@ img[src$=".gif"] {
     color: #505050;
 }
 body, p, .tl-timeline h1, .tl-timeline h2, .tl-timeline h3, .tl-timeline h4, .tl-timeline h5, .tl-timeline h6, .tl-timeline .tl-headline-date, .tl-timeline h3.tl-headline-date {
+	font-family:"Montserrat", sans-serif !important;
+}
+.tl-timeline .tl-caption, .tl-timeline .tl-credit {
 	font-family:"Montserrat", sans-serif !important;
 }
