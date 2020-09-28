@@ -66,3 +66,9 @@ img[src$=".gif"] {
 .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-icon, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-icon, .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-title, .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description {
     color: #fff;
 }
+.tl-text .tl-headline-date, .tl-text h3.tl-headline-date {
+    color: #505050;
+}
+body, .tl-timeline p, .tl-timeline h1, .tl-timeline h2, .tl-timeline h3, .tl-timeline h4, .tl-timeline h5, .tl-timeline h6, .tl-timeline .tl-headline-date, .tl-timeline h3.tl-headline-date {
+	font-family:"Montserrat", sans-serif !important;
+}
