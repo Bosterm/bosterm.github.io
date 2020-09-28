@@ -77,3 +77,13 @@ body, p, .tl-timeline h1, .tl-timeline h2, .tl-timeline h3, .tl-timeline h4, .tl
 .tl-timeline .tl-caption, .tl-timeline .tl-credit {
 	font-family:"Montserrat", sans-serif !important;
 }
+.tl-full-image-background .tl-text-content {
+	background-color: #00000094;
+	border: 8px solid #0000;
+	border-top: 1px solid #0000;
+	border-bottom: 1px solid #0000;
+}
+.tl-slide-text-only .tl-text-content {
+	background-color:#0000;
+border:0px;
+}
