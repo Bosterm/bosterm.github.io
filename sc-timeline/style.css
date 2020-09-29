@@ -89,3 +89,39 @@ body, p, .tl-timeline h1, .tl-timeline h2, .tl-timeline h3, .tl-timeline h4, .tl
 .tl-headline.tl-headline-title {
 	font-size: 58px !important;
 }
+.tl-timeaxis-background {
+    background-color: #13294B;
+}
+body {
+	background-color: #13294b;
+}
+.tl-timenav {
+    background-color: #F8FAFC;
+}
+.tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick {
+	color:#9a9a9a
+}
+.tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick {
+	color:white
+}
+.tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick::before {
+	color:#F5821E;
+	border-color:#F5821E
+}
+.tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick::before {
+	color:#F5821E;
+	border-color:#F5821E
+}
+#image-of-research .tl-caption {
+	width:510px!important
+}
+.tl-credit {
+    margin-top: 3px;
+}
+.tl-menubar-button {
+    background-color: #D2D2D2;
+    color: #13294B;
+}
+.tl-menubar-button:hover {
+    background: #13294B;
+}
