@@ -125,3 +125,21 @@ body {
 .tl-menubar-button:hover {
     background: #13294B;
 }
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout::after, .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p.tl-headline-fadeout::after {
+	background:none
+}
+.tl-timemarker .tl-timemarker-content-container {
+    background-color: #D2D2D2;
+}
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+	color:white
+}
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container {
+    display: none;
+}
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout::after, .tl-timemarker:hover.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout::after {
+	background:none
+}
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+    background-color: #F5821E;
+}
